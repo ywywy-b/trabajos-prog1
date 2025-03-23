@@ -11,7 +11,6 @@ int main() {
         for (int j = 2; j <= i-1; j++) {
             if (i % j == 0) {
                 contador++;
-                break;
             }
         }
         if (contador == 0) {
